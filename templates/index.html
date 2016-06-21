@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola Mundo</title>
+</head>
+<body>
+<h1> Hola </h1>
+	<ul>
+		{% for pr in product %}
+			{{ pr.name }} |
+			{{ pr.descripcion }}
+		{% endfor %}
+
+	</ul>
+</body>
+</html>
